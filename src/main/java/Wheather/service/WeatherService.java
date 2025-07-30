@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class WeatherService {
 
-    String key ="user you  api";
+    String key ="user your  api";
     String url="https://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}";
 
 
